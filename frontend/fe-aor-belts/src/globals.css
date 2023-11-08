@@ -1,0 +1,142 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+.asc-btn {
+  background-color: green;
+}
+
+.desc-btn {
+  background-color: rgba(255, 0, 0, 0.869);
+}
+
+.asc-btn,
+.desc-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.asc-btn:hover,
+.desc-btn:hover {
+  scale: 1.1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  color: white;
+}
+
+.kids-div {
+  background-color: rgba(81, 72, 72, 0.55);
+  margin: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 3px blue solid;
+}
+
+.graduated {
+  background-color: #2769294e;
+  color: rgb(0, 119, 255);
+  font-weight: bold;
+}
+
+.not-graduated {
+  background-color: orange;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+/* Knapparnas grundläggande stil */
+.asc-btn,
+.desc-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px 15px; /* Justerad för att ge mer utrymme */
+  border: none; /* Tar bort kantlinjen för en mer modern look */
+  cursor: pointer; /* Förtydligar att det är en klickbar knapp */
+  transition: transform 0.3s ease; /* Lägger till en övergångseffekt för hover */
+}
+
+/* Stil för ökande knapp */
+.asc-btn {
+  background-color: #7d4e99; /* En lila färg */
+  color: #fff; /* Vit text för kontrast */
+}
+
+/* Stil för minskande knapp */
+.desc-btn {
+  background-color: #9b6db2; /* En ljusare lila ton */
+  color: #fff;
+}
+
+/* Hover-effekt för knappar */
+.asc-btn:hover,
+.desc-btn:hover {
+  transform: scale(1.1); /* Zoomar in knappen vid hover */
+}
+
+/* Globala grundstilar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #0e0b16; /* Mörk bakgrundsfärg */
+  color: #a239ca; /* Lila textfärg för element */
+}
+
+.header {
+  color: #4717f6; /* En annan lila ton för headers */
+}
+
+/* Stil för barns div */
+.kids-div {
+  background-color: rgba(35, 25, 49, 0.85); /* En mörk genomskinlig lila */
+  margin: 8px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 2px solid #a239ca; /* Lila kantlinje */
+  padding: 15px; /* Lägg till padding för utrymme inuti */
+}
+
+/* Stil för examinerade */
+.graduated {
+  background-color: #36013f; /* Mörk lila */
+  color: #e7dfdd; /* Ljus textfärg för kontrast */
+  font-weight: bold;
+}
+
+/* Stil för ej examinerade */
+.not-graduated {
+  background-color: #5b3475; /* Mellanlila */
+  color: #e7dfdd;
+}
