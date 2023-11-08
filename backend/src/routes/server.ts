@@ -21,6 +21,7 @@ app.use(
   cors({
     origin: [
       'https://aor-belts-main.onrender.com',
+      'https://aor-belts-nextjs.onrender.com/',
       'http://localhost:3001',
       'http://localhost:3000',
     ],
